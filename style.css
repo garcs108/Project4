@@ -7,7 +7,7 @@ z-index: 50;
 
 #h1{
     font-size: 2em;
-    position: absolute; left: 200px;top: 1200px; 
+    position: absolute; left: 200px;top: 2000px; 
     display:inline;
     outline: 4px rgb(255, 255, 255);
     z-index: 100;
@@ -17,9 +17,28 @@ z-index: 50;
 }
 
 img{
-    width: 500px;
+    width: 900px;
     height: auto;
 }
+
+#changing-img{
+    z-index: 200; 
+    position:absolute ; 
+    left: 300px; 
+    right:20px;
+    top: 900px; 
+}
+
+#changing-text{
+    z-index: 201;
+    top: 900px; 
+    left: 900px;
+    font-size: 10em;
+    position:absolute ; 
+    border-top: none;
+    color: orange;
+}
+
 
 .text3 {
     display: none;
@@ -47,9 +66,9 @@ img{
     color: rgb(41, 18, 96);
     font-size: 1.5em;
     right: 300px;
-    width:30em;
+    width:25em;
     z-index: 99;
-    position: absolute;left: 1050px; top: 300px;
+    position: absolute;left: 1050px; top: 250px;
     
 }
 
@@ -71,7 +90,7 @@ img{
     font-size: 2em ;
     position:absolute ; left: 600px; top:900px; right:20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
 }
 
 #three{
@@ -79,6 +98,7 @@ img{
     position: absolute; left: 60px;top: 1000px; right: 20px;
     width: 40em;
 }
+
 
 #four{
     font-size: 2em ;
@@ -91,7 +111,7 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 1200px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
 }
 
 #five{
@@ -111,7 +131,7 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 1550px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;  
+    width: 30em;  
 }
 
 #seven {
@@ -131,18 +151,18 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 1900px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;  
+    width: 30em;  
 }
 
 #nine{
     font-size: 2em;
-    position: absolute; left: 60px;top: 2000px; 
+    position: absolute; left: 60px;top: 2050px; 
     width: 40em; 
 }
 
 #ninee{
     font-size: 2em;
-    position: absolute; left: 60px;top: 2100px; 
+    position: absolute; left: 60px;top: 2120px; 
     width: 40em; 
 }
 
@@ -163,7 +183,7 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 2370px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
 }
 
 #eleven{
@@ -183,7 +203,7 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 2650px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
 }
 
 #elevenn{
@@ -209,7 +229,7 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 3000px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
 }
 
 #thirteen{
@@ -229,7 +249,7 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 3250px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
 }
 
 #fourteen{
@@ -239,17 +259,20 @@ img{
 }
 
 #fourteenn{
+    
+
+    font-size: 2em;
+    position: absolute; left: 600px;top: 3450px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 30em;
+}
+
+#fourteennn{
+
     font-size: 2em ;
     color: rgb(242, 241, 241);
     position:absolute ; left: 300px; top:3390px; right:20px;
     width: 40em;
-}
-
-#fourteennn{
-    font-size: 2em;
-    position: absolute; left: 600px;top: 3450px; right: 20px;
-    color: rgb(41, 18, 96);
-    width: 35em;
 }
 
 #fourteennnn{
@@ -269,28 +292,28 @@ img{
     font-size: 2em;
     position: absolute; left: 600px;top: 3660px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
 }
 
 #hello{
     font-size: 2em;
-    position: absolute; left: 60px;top: 3750px; 
+    position: absolute; left: 60px;top: 3800px; 
     width: 40em; 
 }
 
 #helloo{
     font-size: 2em ;
     color: rgb(242, 241, 241);
-    position:absolute ; left: 300px; top:3850px; right:20px;
+    position:absolute ; left: 300px; top:3890px; right:20px;
     width: 40em;
     font-weight: 400;
 }
 
 #hellooo{
     font-size: 2em;
-    position: absolute; left: 600px;top: 3950px; right: 20px;
+    position: absolute; left: 600px;top: 3980px; right: 20px;
     color: rgb(41, 18, 96);
-    width: 35em;
+    width: 30em;
     font-weight: 400;
 }
 

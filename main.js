@@ -1,11 +1,11 @@
-let title = document.getElementById("changing-text");
 let image = document.getElementById("changing-img");
 // const btn = document.getElementById("addimage");
+
 
 let keyspressed = []
 
 // let codeArray = ["e","g","y","u","h","j"];
-let interval = setInterval(changeBackground, 1000);
+// let interval = setInterval(changeBackground, 1000);
 
 // btn.addEventListener('click', function(){
 //     let img2 = document.createElement("img");
@@ -14,13 +14,18 @@ let interval = setInterval(changeBackground, 1000);
 //     document.body.appendChild(img2);
 // })
 
-document.addEventListener('keydown', function(evt){
+document.addEventListener('keydown', function(evt){ 
+    var title = document.getElementById("changing-text")
     // console.log(evt.code, evt.key);
    // if(evt.metaKey == false){
         //clearInterval(interval);
         title.innerHTML += evt.key;
         setImage(title.innerHTML);
         keyspressed.push(evt.key);
+        if(evt.key === "Backspace"){
+            title.innerHTML = "";
+            console.log("test");
+        }
 
         /* if(evt.key == 'p'){
             clearInterval(interval);
@@ -30,18 +35,56 @@ document.addEventListener('keydown', function(evt){
 );
 
 function setImage(word){
+    var changingimage = document.getElementById("changing-img")
     switch(word){
-        case 'love':
-            image.src = "love.jpg";
-            break;
-        case 'shade':
-            image.src = "shade.jpg";
+        case 'manzanas':
+            changingimage.src = "./images/dinero.jpg";
             break;
         case 'apples':
-            image.src = "apples2.jpg";
+            changingimage.src = "./images/dinero.jpg";
             break;
+
+            case 'ramas':
+            changingimage.src = "./images/swing.jpg";
+            break;
+        case 'branches':
+            changingimage.src = "./images/swing.jpg";
+            break;
+
+            case 'casa':
+            changingimage.src = "./images/house.jpg";
+            break;
+        case 'house':
+            changingimage.src = "./images/house.jpg";
+            break;
+
+            case 'bote':
+            changingimage.src = "./images/boat.jpg";
+            break;
+        case 'boat':
+            changingimage.src = "./images/boat.jpg";
+            break;
+
+            case 'trunk':
+            changingimage.src = "./images/trunk.jpg";
+            break;
+        case 'tronco':
+            changingimage.src = "./images/trunk.jpg";
+            break;
+
+            case 'rest':
+            changingimage.src = "./images/rest.jpg";
+            break;
+        case 'descansa':
+            changingimage.src = "./images/rest.jpg";
+            break;
+
+            case 'fin':
+            changingimage.src = "./images/end.jpg";
+            break;
+
         default:
-            image.src = "";
+            changingimage.src = "";
     }
 }
 
@@ -77,3 +120,4 @@ function setImage(word){
     //         image.src = "";
     // }
 
+  
