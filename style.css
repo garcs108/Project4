@@ -1,0 +1,308 @@
+html, body {
+background-color: rgb(38, 150, 101);
+font-family:"Work Sans", sans-serif;
+z-index: 50;
+}
+
+
+#h1{
+    font-size: 2em;
+    position: absolute; left: 200px;top: 1200px; 
+    display:inline;
+    outline: 4px rgb(255, 255, 255);
+    z-index: 100;
+    background-color: black;
+    height: 50px;
+    width: 255px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+.text3 {
+    display: none;
+    text-align: center;
+    z-index: 50;
+}
+
+.text:hover + .text3 {
+    display: block;
+    color: white;
+    z-index: 53;
+}
+
+.title {
+    font-size: 7em;
+}
+
+.text2{
+    position: absolute;
+    left: 10px;
+    top: 300px;
+}
+
+#preface {
+    color: rgb(41, 18, 96);
+    font-size: 1.5em;
+    right: 300px;
+    width:30em;
+    z-index: 99;
+    position: absolute;left: 1050px; top: 300px;
+    
+}
+
+
+#one {
+    font-size: 2em;
+    position: absolute; left: 60px;top: 500px; 
+    width: 40em;
+}
+
+.two{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:800px; right:20px;
+    width: 40em;
+}
+
+#twoo{
+    font-size: 2em ;
+    position:absolute ; left: 600px; top:900px; right:20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#three{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 1000px; right: 20px;
+    width: 40em;
+}
+
+#four{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:1100px; right:20px;
+    width: 40em;
+}
+
+#fourr{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 1200px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#five{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 1350px; 
+    width: 40em;
+}
+
+#six{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:1500px; right:20px;
+    width: 40em;
+}
+
+#sixx{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 1550px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;  
+}
+
+#seven {
+    font-size: 2em;
+    position: absolute; left: 60px;top: 1650px; 
+    width: 40em;
+}
+
+#eight{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:1800px; right:20px;
+    width: 40em;
+}
+
+#eightt{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 1900px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;  
+}
+
+#nine{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 2000px; 
+    width: 40em; 
+}
+
+#ninee{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 2100px; 
+    width: 40em; 
+}
+
+#ten{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 2200px; 
+    width: 40em; 
+}
+
+#tenn{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:2300px; right:20px;
+    width: 40em;
+}
+
+#tennn{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 2370px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#eleven{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 2450px; 
+    width: 40em; 
+}
+
+#hi{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:2550px; right:20px;
+    width: 40em;
+}
+
+#hii{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 2650px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#elevenn{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 2750px; 
+    width: 40em; 
+}
+
+#twelve{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 2850px; 
+    width: 40em; 
+}
+
+#twelvee{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:2920px; right:20px;
+    width: 40em;
+}
+
+#twelveee{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 3000px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#thirteen{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 3100px; 
+    width: 40em; 
+}
+
+#thirteenn{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:3170px; right:20px;
+    width: 40em;
+}
+
+#thirteennn{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 3250px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#fourteen{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 3330px; 
+    width: 40em; 
+}
+
+#fourteenn{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:3390px; right:20px;
+    width: 40em;
+}
+
+#fourteennn{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 3450px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#fourteennnn{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 3500px; 
+    width: 40em; 
+}
+
+#fifteen{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:3560px; right:20px;
+    width: 40em;
+}
+
+#fifteenn{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 3660px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+}
+
+#hello{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 3750px; 
+    width: 40em; 
+}
+
+#helloo{
+    font-size: 2em ;
+    color: rgb(242, 241, 241);
+    position:absolute ; left: 300px; top:3850px; right:20px;
+    width: 40em;
+    font-weight: 400;
+}
+
+#hellooo{
+    font-size: 2em;
+    position: absolute; left: 600px;top: 3950px; right: 20px;
+    color: rgb(41, 18, 96);
+    width: 35em;
+    font-weight: 400;
+}
+
+#sixteen{
+    font-size: 2em;
+    position: absolute; left: 60px;top: 4100px; 
+    width: 40em;
+}
+
+#sixteenn{
+    font-size: 2em;
+    position: absolute; left: 800px;top: 4250px; 
+    width: 40em;
+    padding-bottom: 50px;
+}
